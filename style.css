@@ -65,21 +65,26 @@ header form .search-container .material-symbols-outlined {
 }
 
 /* Search Button */
+/* Search Button */
 header form .search-container button {
-    padding: 12px 18px;
-    background-color: lightseagreen;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, lightseagreen, #1e7f7b);
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     color: #fff;
     font-size: 18px;
+    font-weight: bold;
     cursor: pointer;
     transition: 0.3s ease;
+    box-shadow: 0 4px 8px rgba(32, 178, 170, 0.4);
 }
 
 header form .search-container button:hover {
-    background-color: #20a39e;
-    transform: scale(1.05);
+    background: linear-gradient(135deg, #20a39e, #17817e);
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(32, 178, 170, 0.6);
 }
+
 
 /* Image Container */
 .images-container {
